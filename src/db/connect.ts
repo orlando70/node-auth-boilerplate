@@ -6,8 +6,6 @@ import config from "../config";
 export const redisClient = new Redis({
   host: config.redis.host,
   port: config.redis.port,
-  username: "default",
-  password: "Q0rlQUzV2mkimGxCr43idO8e0fz3IGGT",
 });
 
 const uri = config.database.uri;
